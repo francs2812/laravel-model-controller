@@ -1,0 +1,25 @@
+main {
+    color: red;
+    text-align: center;
+
+    ul { 
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+
+        li {
+            width: calc((100% - 150px) / 5);
+            padding: 5px;
+            margin: 10px;
+            background-color: white;
+            
+            span {
+                display: block;
+                color: #000;
+
+            }
+        }
+    }
+}

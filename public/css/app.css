@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+  border-bottom: 5px solid white;
+}
+
+header div h1 {
+  text-transform: uppercase;
+  color: red;
+}
+
+header div a {
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: red;
+}
+
+main {
+  color: red;
+  text-align: center;
+}
+
+main ul {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+main ul li {
+  width: calc((100% - 150px) / 5);
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+}
+
+main ul li span {
+  display: block;
+  color: #000;
+}
+
+#login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+}
+
+#login div {
+  width: 50%;
+  padding: 15px;
+  margin: 0 auto;
+  border: 3px solid red;
+}
+
+#login div input {
+  width: calc(100% - 30px);
+  margin: 10px 0;
+}
+
+#login div #submit {
+  width: 65px;
+  height: 25px;
+  color: red;
+}
+

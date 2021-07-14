@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    border-bottom:  5px solid white;
+
+    div {
+        h1 {
+            text-transform: uppercase;
+            color: red;
+        }
+    }
+    div {
+        a {
+            margin: 5px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: red;
+        }
+    }
+}
